@@ -1,0 +1,1116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecom</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div
+      class="top-bar py-2 border-bottom text-secondary"
+      style="font-size: 0.85rem">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="top-links d-none d-md-flex align-items-center gap-2">
+          <a href="#" class="text-decoration-none text-secondary">About us</a>
+          <span class="text-muted">|</span>
+          <a href="#" class="text-decoration-none text-secondary">Careers</a>
+          <span class="text-muted">|</span>
+          <a href="#" class="text-decoration-none text-secondary"
+            >Open a shop</a
+          >
+        </div>
+
+        <div class="top-promo">
+          <span
+            >Free shipping for all orders over
+            <strong class="text-success">$75.00</strong></span
+          >
+        </div>
+
+        <div class="top-right d-flex align-items-center gap-3">
+          <span class="d-none d-lg-inline"
+            >Need help? Call Us:
+            <strong class="text-success">+ 1800 900</strong></span
+          >
+
+          <div class="dropdown">
+            <button
+              class="btn btn-sm dropdown-toggle p-0 text-secondary border-0"
+              type="button"
+              data-bs-toggle="dropdown">
+              <span class="me-1">🇬🇧</span> English
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end shadow-sm">
+              <li><a class="dropdown-item active-lang" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">Français</a></li>
+              <li><a class="dropdown-item" href="#">Español</a></li>
+            </ul>
+          </div>
+
+          <div class="dropdown">
+            <button
+              class="btn btn-sm dropdown-toggle p-0 text-secondary border-0"
+              type="button"
+              data-bs-toggle="dropdown">
+              USD
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end shadow-sm">
+              <li><a class="dropdown-item" href="#">USD</a></li>
+              <li><a class="dropdown-item" href="#">EUR</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="py-3 bg-white border-bottom">
+      <div class="container d-flex justify-content-between align-items-center">
+        <a href="#" class="navbar-brand text-primary fw-bold fs-3">
+          <img src="./images/logo.svg" alt="Ecom Logo" />
+        </a>
+
+        <div
+          class="search-box d-none d-lg-flex align-items-center border rounded-2 px-2 py-1 mx-3 flex-grow-1"
+          style="max-width: 420px">
+          <select
+            class="form-select border-0 shadow-none fw-semibold text-secondary w-auto py-0 pe-4"
+            id="filterButtons">
+            <option value="all" selected>All categories</option>
+
+            <option value="Electronics">Electronics</option>
+
+            <option value="Fashion">Fashion</option>
+
+            <option value="Home & Garden">Home & Garden</option>
+          </select>
+          <span class="border-end mx-2" style="height: 20px"></span>
+          <input
+            type="text"
+            id="searchInput"
+            class="form-control border-0 shadow-none p-0 flex-grow-1"
+            placeholder="Search for items"
+            style="font-size: 0.85rem" />
+          <button
+            class="btn btn-sm text-secondary border-0 p-0 ms-2"
+            type="button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <div
+          class="navbar navbar-expand-lg d-flex justify-content-end position-relative">
+          <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#mobileMenu"
+            aria-controls="mobileMenu"
+            aria-label="Open navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <nav class="d-none d-lg-block">
+            <ul class="navbar-nav flex-row gap-3">
+              <!-- Home -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link text-dark fw-semibold dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Home
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item py-2" href="./index.html"
+                      >home-page1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page2.html"
+                      >home-page2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page3.html"
+                      >home-page3</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page4.html"
+                      >home-page4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page5.html"
+                      >home-page5</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page6.html"
+                      >home-page6</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page7.html"
+                      >home-page7</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page8.html"
+                      >home-page8</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-bage9.html"
+                      >home-page9</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-pages10.html"
+                      >home-page10</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Shop -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Shop
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="shopGrid1.html"
+                      >Shop Grid 1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2.html"
+                      >Shop Grid 2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2 (2).html"
+                      >Shop Grid 3</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2 (3).html"
+                      >Shop Grid 4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopFullWidth.html"
+                      >Shop Full Width</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleProduct.html"
+                      >Single Product</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleProduct1.html"
+                      >Single Product 1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleprodact4.html"
+                      >Single Product 4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-cart.html">Shop Cart</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-checkout.html"
+                      >Shop Checkout</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-compare.html"
+                      >Shop Compare</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-wishlist.html"
+                      >Shop Wishlist</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Vendors -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Vendors
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="Vendors.html">Vendors</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="vindorsingle.html"
+                      >Vendor Single</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Pages -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Pages
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="about.html">About Us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="contact.html">Contact Us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="career.html">Career</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="trim-and-condition.html"
+                      >Terms and Conditions</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="register.html">Register</a>
+                  </li>
+                  <li><a class="dropdown-item" href="login.html">Login</a></li>
+                  <li>
+                    <a class="dropdown-item" href="error.html">Error 404</a>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Blogs -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Blogs
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="blog-sidbar.html"
+                      >Blog Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-right-sidebar.html"
+                      >Blog Right Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-list.html">Blog List</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-category-big.html"
+                      >Blog Single Left Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="blog-single-left-sidebar.html"
+                      >Blog Single Left Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="blog-single-right-sidebar.html"
+                      >Blog Single Right Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-single-no-sidebar.html"
+                      >Blog Single No Sidebar</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Contact -->
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-semibold" href="./contact.html">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- القائمة الجانبية للموبايل -->
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="mobileMenu"
+          aria-labelledby="mobileMenuLabel">
+          <!-- رأس القائمة -->
+          <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title fw-bold" id="mobileMenuLabel">Ecom</h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+
+          <!-- محتوى القائمة -->
+          <div class="offcanvas-body">
+            <ul class="navbar-nav gap-2">
+              <!-- Home -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Home
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item py-2" href="./index.html"
+                      >home-page1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page2.html"
+                      >home-page2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page3.html"
+                      >home-page3</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page4.html"
+                      >home-page4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page5.html"
+                      >home-page5</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page6.html"
+                      >home-page6</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page7.html"
+                      >home-page7</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-page8.html"
+                      >home-page8</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-bage9.html"
+                      >home-page9</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="./home-pages10.html"
+                      >home-page10</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Shop -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Shop
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item" href="shopGrid1.html"
+                      >Shop Grid 1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2.html"
+                      >Shop Grid 2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2 (2).html"
+                      >Shop Grid 3</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopGrid2 (3).html"
+                      >Shop Grid 4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shopFullWidth.html"
+                      >Shop Full Width</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleProduct.html"
+                      >Single Product</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleProduct1.html"
+                      >Single Product 1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="singleprodact4.html"
+                      >Single Product 4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-cart.html">Shop Cart</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-checkout.html"
+                      >Shop Checkout</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-compare.html"
+                      >Shop Compare</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shop-wishlist.html"
+                      >Shop Wishlist</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Vendors -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Vendors
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item" href="Vendors.html">Vendors</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="vindorsingle.html"
+                      >Vendor Single</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Pages -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Pages
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item" href="about.html">About Us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="contact.html">Contact Us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="career.html">Career</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="trim-and-condition.html"
+                      >Terms and Conditions</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="register.html">Register</a>
+                  </li>
+                  <li><a class="dropdown-item" href="login.html">Login</a></li>
+                  <li>
+                    <a class="dropdown-item" href="error.html">Error 404</a>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Blogs -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark fw-semibold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown">
+                  Blogs
+                </a>
+
+                <ul class="dropdown-menu border-0 shadow-sm">
+                  <li>
+                    <a class="dropdown-item" href="blog-sidbar.html"
+                      >Blog Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-right-sidebar.html"
+                      >Blog Right Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-list.html">Blog List</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-category-big.html"
+                      >Blog Single Left Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="blog-single-left-sidebar.html"
+                      >Blog Single Left Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="blog-single-right-sidebar.html"
+                      >Blog Single Right Sidebar</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="blog-single-no-sidebar.html"
+                      >Blog Single No Sidebar</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Contact -->
+              <li class="nav-item">
+                <a class="nav-link text-dark fw-semibold" href="./contact.html">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center gap-3 ms-3">
+          <a href="#" class="text-secondary fs-5 text-decoration-none">
+            <i class="fa-regular fa-user"></i>
+          </a>
+          <a
+            href="#"
+            class="text-secondary fs-5 text-decoration-none position-relative">
+            <i class="fa-solid fa-arrows-rotate"></i>
+          </a>
+          <a
+            href="#"
+            class="text-secondary fs-5 text-decoration-none position-relative">
+            <i class="fa-regular fa-heart"></i>
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark"
+              >5</span
+            >
+          </a>
+          <button
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#cartOffcanvas"
+            class="cart-button text-secondary fs-5 text-decoration-none position-relative border-0 bg-light">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span
+              id="cartCount"
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark"
+              >0</span
+            >
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="cartOffcanvas">
+      <div class="offcanvas-header border-bottom">
+        <h5 class="offcanvas-title fw-bold">
+          <i class="fa fa-shopping-cart text-primary"></i>
+          Shopping Cart
+        </h5>
+
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"></button>
+      </div>
+
+      <div class="offcanvas-body d-flex flex-column">
+        <div id="offcanvasCartItems"></div>
+
+        <div class="mt-auto">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <span class="fw-bold"> Total: </span>
+
+            <span class="fw-bold text-primary" id="offcanvasCartTotal">
+              $0.00
+            </span>
+          </div>
+
+          <a
+            href="shop-checkout.html"
+            class="btn btn-primary w-100 fw-bold mb-2"
+            style="background-color: #425a8b">
+            Proceed to Checkout
+          </a>
+
+          <a href="shop-cart.html" class="btn btn-submit w-100 fw-bold">
+            View Cart
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+            <ul class="d-flex gap-3 bg-light">
+              <li class="list-unstyled"><a class="text-decoration-none"  href="index.html">Home</a></li>
+              <li class="list-unstyled"><a class="text-decoration-none" href="index.html"><span><i class="fa fa-chevron-right" style="color: #425A8B;"></i></span>Pages</a></li>
+              <li class="list-unstyled"><a class="text-decoration-none" href="login.html"><span><i class="fa fa-chevron-right" style="color: #425A8B;"></i></span>login</a></li>
+            </ul>
+          </div>
+          <div class="container">
+            <div class="row justify-content-start mt-5">
+              <div class="col-xl-6 col-md-8 col-sm-12">
+                <form action="" class="form-group ">
+                  <h1 style="color: #110a95;">Member Login</h1>
+                  <p style="color: #425A8B;">Welcome back!</p>
+                </form>
+                <form action="" class="form-group mt-3">
+                  <label for="" class="form-label" >Email / Phone / Username *</label>
+                  <input type="text" placeholder="stevenjob@gmail.com" class="form-control ">
+                </form>
+                <form action="" class="form-group mt-3">
+                  <label for="" class="form-label" >Password *</label>
+                  <input type="password" placeholder="**************" class="form-control ">
+                </form>
+                <form action="" class="form-group mt-3">
+                  <label for="" style="color: #425A8B;"> 
+                  <input type="checkbox" class="" >
+                  Remember me
+                  </label>
+                </form>
+                <form action="" class="form-group mt-3">
+                  <a href="#" class="d-flex justify-content-end text-decoration-none fw-5">Forgot your password?</a>
+                </form>
+                <form class="form-group mt-3">
+                  <input type="submit" class="btn  form-control btn-submit" value="Sign Up">
+                </form>
+                <div class="mb-5 mt-3">
+                  <span style="color: #425A8B;">Have not an account?</span>
+                  <a href="register.html" class="text-decoration-none">sign up</a>
+                </div>
+                  
+
+
+                
+                
+              </div>
+            </div>
+          </div>
+    
+    
+<section class="section-box box-newsletter">
+        <div class="container">
+          <div class="row justify-content-center mt-5 p-5 align-items-center" style="background-color: #110a95; height: 35vh;">
+            <div class="col-lg-6 col-md-7 col-sm-12">
+              <h3 class="text-white">Subscrible &amp; Get <span class="text-warning">10%</span> Discount</h3>
+              <p class="font-lg text-white">Get E-mail updates about our latest shop and <span class="fs-5">special offers.</span></p>
+            </div>
+            <div class="col-lg-4 col-md-5 col-sm-12">
+              <div class="box-form-newsletter mt-15">
+                <form class="form-menu d-flex">
+                  <input class="input-newsletter "  value="" placeholder="Your email Address">
+                  <button class="btn btn-warning">Sign Up</button>
+                </form>
+              </div>
+            </div>
+            
+            
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container bg-light" >
+          <div class="row justify-content-center align-items-center p-5">
+            <div class="col-lg-3 col-md-6 col-sm-12 ">
+              <h1 style="color: #110a95;">Contact</h1>
+              <p style="color: #425A8B;"><span class="fs-5">Address:</span> 502 New Design Str, Melbourne, San Francisco, CA 94110, United States</p>
+              <p style="color: #425A8B;"><span class="fs-5">Phone: </span>(+01) 123-456-789</p>
+              <p style="color: #425A8B;"><span class="fs-5">E-mail: </span> contact@ecom-market.com</p>
+              <p style="color: #425A8B;"><span class="fs-5">Hours: </span> 8:00 - 17:00, Mon - Sat</p>
+              <div>
+                <span><i class="fa-brands fa-facebook"></i></span>
+                <span><i class="fa-brands fa-x-twitter"></i></span>
+                <span><i class="fa-brands fa-instagram"></i></span>
+                <span><i class="fa-brands fa-linkedin"></i></span>
+              </div>
+
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12">
+              <h5 style="color: #110a95;">Make Mony With Us</h5>
+              <ul class="list-unstled ">
+                <li class="list-unstyled mt-3" ><span><i class="fa fa-chevron-right" style="color: #425A8B;"></i></span><a style="color: #110a95" class="text-decoration-none " href="about.html">Mission &amp; Vision</a></li>
+                <li class="list-unstyled mt-3" ><span><i class="fa fa-chevron-right" style="color: #425A8B;"></i></span><a style="color: #110a95" class="text-decoration-none " href="about.html">Our Team</a></li>
+                <li class="list-unstyled mt-3" ><span><i class="fa fa-chevron-right" style="color: #425A8B;"></i></span><a style="color: #110a95" class="text-decoration-none " href="about.html">Careers</a></li>
+                <li class="list-unstyled mt-3" ><span><i class="fa fa-chevron-right" style="color: #425A8B;"></i></span><a style="color: #110a95" class="text-decoration-none " href="#">Press &amp; Media</a></li>
+                <li class="list-unstyled mt-3" ><span><i class="fa fa-chevron-right" style="color: #425A8B;"></i></span><a style="color: #110a95" class="text-decoration-none " href="#">Advertising</a></li>
+                <li class="list-unstyled mt-3" ><span><i class="fa fa-chevron-right" style="color: #425A8B;"></i></span><a style="color: #110a95" class="text-decoration-none " href="#">Testimonials</a></li>
+              </ul>
+
+
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12">
+              <h2 style="color: #110a95;">Company</h2>
+              <ul class="list-unstled ">
+                <li class="list-unstyled mt-3" ><span><i class="fa fa-chevron-right" style="color: #425A8B;"></i></span><a style="color: #110a95" class="text-decoration-none " href="about.html">Our Blog</a></li>
+                <li class="list-unstyled mt-3" ><span><i class="fa fa-chevron-right" style="color: #425A8B;"></i></span><a style="color: #110a95" class="text-decoration-none " href="about.html">Plans & Pricing</a></li>
+                <li class="list-unstyled mt-3" ><span><i class="fa fa-chevron-right" style="color: #425A8B;"></i></span><a style="color: #110a95" class="text-decoration-none " href="about.html">Knowledge Base</a></li>
+                <li class="list-unstyled mt-3" ><span><i class="fa fa-chevron-right" style="color: #425A8B;"></i></span><a style="color: #110a95" class="text-decoration-none " href="#">Cookie Policy</a></li>
+                <li class="list-unstyled mt-3" ><span><i class="fa fa-chevron-right" style="color: #425A8B;"></i></span><a style="color: #110a95" class="text-decoration-none " href="#">Office Center</a></li>
+                <li class="list-unstyled mt-3" ><span><i class="fa fa-chevron-right" style="color: #425A8B;"></i></span><a style="color: #110a95" class="text-decoration-none " href="#"">News & Events</a></li>
+              </ul>
+
+
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12">
+              <h2 style="color: #110a95;">My account</h2>
+              <ul class="list-unstled ">
+                <li class="list-unstyled mt-3" ><span><i class="fa fa-chevron-right" style="color: #425A8B;"></i></span><a style="color: #110a95" class="text-decoration-none " href="about.html">FAQs</a></li>
+                <li class="list-unstyled mt-3" ><span><i class="fa fa-chevron-right" style="color: #425A8B;"></i></span><a style="color: #110a95" class="text-decoration-none " href="about.html">Editor Help</a></li>
+                <li class="list-unstyled mt-3" ><span><i class="fa fa-chevron-right" style="color: #425A8B;"></i></span><a style="color: #110a95" class="text-decoration-none " href="about.html">Community</a></li>
+                <li class="list-unstyled mt-3" ><span><i class="fa fa-chevron-right" style="color: #425A8B;"></i></span><a style="color: #110a95" class="text-decoration-none " href="#">Live Chatting</a></li>
+                <li class="list-unstyled mt-3" ><span><i class="fa fa-chevron-right" style="color: #425A8B;"></i></span><a style="color: #110a95" class="text-decoration-none " href="#">Contact Us</a></li>
+                <li class="list-unstyled mt-3" ><span><i class="fa fa-chevron-right" style="color: #425A8B;"></i></span><a style="color: #110a95" class="text-decoration-none " href="#">Support Center</a></li>
+              </ul>
+
+
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <h2 style="color: #110a95;">App & Payment</h2>
+              <ul class="list-unstled ">
+                <li class="list-unstyled mt-3" ><p style="color: #110a95">Download our Apps and get extra 15%</p></li>
+                <li class="list-unstyled mt-3" ><p style="color: #110a95">Discount on your first Order…!</p></li>
+                <li class="list-unstyled">
+                  <div class="row">
+                    <div class="col-6"><img src="images/appstore.png" alt=""></div>
+                    <div class="col-6"><img src="images/google-play.png" alt=""></div>
+                  </div>
+                </li>
+                <li class="list-unstyled mt-3" ><p style="color: #110a95">Secured Payment Gateways</p></li>
+                <li class="list-unstyled"><img src="images/payment-method.png" alt=""></li>
+              </ul>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+      
+<footer class="bg-white pt-5">
+
+  <div class="container">
+
+    
+    <div class="row align-items-center mb-4">
+
+      
+      <div class="col-lg-3 mb-3 mb-lg-0">
+        <div class="d-flex align-items-center">
+          <img src="images/logo.svg" alt="Ecom" >
+          
+        </div>
+      </div>
+
+      
+      <div class="col-lg-6">
+        <div class="d-flex flex-wrap gap-4">
+          <a href="#" class="text-decoration-none text-dark">
+            EcomMarket.com
+          </a>
+
+          <a href="#" class="text-decoration-none text-dark">
+            Ecom Partners
+          </a>
+
+          <a href="#" class="text-decoration-none text-dark">
+            Ecom Bussiness
+          </a>
+
+          <a href="#" class="text-decoration-none text-dark">
+            Ecom Factory
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+
+    
+    <div class="row mb-3">
+
+      <div class="col-lg-2">
+        <strong class="text-primary fs-5">
+          Electronic:
+        </strong>
+      </div>
+
+      <div class="col-lg-10">
+
+        <div class="d-flex flex-wrap gap-2">
+
+          <a href="#" class="footer-link">Cell Phones</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Headphones</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Television & Video</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Game Controller</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Apple Watch</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">HTC</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Ipad</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Keyboard</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Samsung</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Wireless Speaker</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Samsung Galaxy</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Gaming Mouse</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">eBook Readers</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Service Plans</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Home Audio</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Office Electronics</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Lenovo</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Macbook Pro M1</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">HD Videos Player</a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    
+    <div class="row pb-4">
+
+      <div class="col-lg-2">
+        <strong class="text-primary fs-5">
+          Furniture:
+        </strong>
+      </div>
+
+      <div class="col-lg-10">
+
+        <div class="d-flex flex-wrap gap-2">
+
+          <a href="#" class="footer-link">Sofa</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Chair</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Dining Table</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Living Room</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Table Lamp</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Night Stand</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Computer Desk</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Bar Table</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Pillow</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Radio</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Clock</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Bad Room</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Stool</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Television</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">wardrobe</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Living Room Tables</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Dressers</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Patio Sofas</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Nursery</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Kitchen</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Accent Furniture</a>
+          <span>|</span>
+
+          <a href="#" class="footer-link">Replacement Parts</a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    
+    <hr>
+
+
+    
+    <div class="row py-3 align-items-center">
+
+      <div class="col-md-6 text-center text-md-start">
+        <p class="mb-0 text-primary">
+          Copyright &copy; 2022 Ecom Market. All rights reserved.
+        </p>
+      </div>
+
+      <div class="col-md-6">
+
+        <div class="d-flex justify-content-center justify-content-md-end gap-4">
+
+          <a href="#" class="text-decoration-none text-primary">
+            Conditions of Use
+          </a>
+
+          <a href="#" class="text-decoration-none text-primary">
+            Privacy Notice
+          </a>
+
+          <a href="#" class="text-decoration-none text-primary">
+            Interest-Based Ads
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+
+    <a href="#" 
+    id="back-to-top"
+
+    class="btn  position-fixed bottom-0 end-0 m-3 rounded-circle"
+    style="display: none; background-color:#425A8B">
+    <i class="fa fa-arrow-up" ></i></a>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</html>

@@ -1,0 +1,8 @@
+الأقسام التي عملت عليها
+pages
+javascript
+add to cart
+shop cart
+shop checkout
+تعديل طريقة العرض بال navbar
+اظهار السلة
